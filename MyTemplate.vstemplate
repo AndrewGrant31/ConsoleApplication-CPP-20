@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ConsoleApplication C++20</Name>
+    <Description>Console application utilising the C++20 standard. Project uses separate declaration (inc), definition (src) and precompiled header (pch) folders</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ConsoleApplication C++20</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ConsoleApplication.vcxproj" File="ConsoleApplication.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">ConsoleApplication.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="pch.cpp">PCH\pch.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HelloWho.cpp">SRC\HELLO\HelloWho.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HelloWho.h">INC\HELLO\HelloWho.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="pch.h">PCH\pch.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
