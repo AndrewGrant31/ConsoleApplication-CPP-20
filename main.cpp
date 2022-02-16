@@ -1,5 +1,3 @@
-// ConsoleApplication.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include "inc/hello/HelloWho.h"
 #include "pch.h"
