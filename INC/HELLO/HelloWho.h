@@ -13,7 +13,7 @@ namespace Hello
 		std::string who_ { "" };
 	
 	public:
-		HelloWho ( ) = default;
+		explicit HelloWho ( ) = default;
 		HelloWho ( const std::string value_ );
 
 		const std::string SayHello ( ) const noexcept;
