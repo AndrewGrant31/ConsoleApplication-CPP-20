@@ -15,7 +15,7 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="ConsoleApplication.vcxproj" File="ConsoleApplication.vcxproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">ConsoleApplication.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcxproj.filters">ConsoleApplication.vcxproj.filters</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.cpp">main.cpp</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="pch.cpp">PCH\pch.cpp</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="HelloWho.cpp">SRC\HELLO\HelloWho.cpp</ProjectItem>
